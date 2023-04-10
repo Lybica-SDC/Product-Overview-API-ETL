@@ -1,0 +1,23 @@
+{
+  "name": "product-overview-api-etl",
+  "version": "1.0.0",
+  "description": "This repo provides an ETL solution for handling large product data .csv files to MongoDB Schema.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lybica-SDC/Product-Overview-API-ETL.git"
+  },
+  "author": "Donn Neufeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lybica-SDC/Product-Overview-API-ETL/issues"
+  },
+  "homepage": "https://github.com/Lybica-SDC/Product-Overview-API-ETL#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3"
+  }
+}
